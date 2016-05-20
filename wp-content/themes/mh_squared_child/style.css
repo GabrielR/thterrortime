@@ -1,0 +1,83 @@
+/*****
+Theme Name: MH Squared Child Theme
+Theme URI: http://www.mhthemes.com/themes/mh/squared/
+Description: This is a child theme for MH Squared WordPress theme to make customizations much easier for you. By using this child theme you make sure, that you keep your changes after an update of the parent theme.
+Author: MH Themes
+Author URI: http://www.mhthemes.com/
+Template: mh_squared
+Version: 1.0.0
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*****/
+
+/* @import url("../mh_squared/style.css"); */
+
+
+
+/*  Mail Chimp Signup Widget Styling */
+
+body #mc_signup_form {
+	background-color:#EEE;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+body .widget_mailchimpsf_widget .widget-title {
+	margin-bottom:0;
+}
+
+
+body #mc_subheader {
+	color:#333;
+	margin-bottom:14px;
+	font-weight:bold;
+}
+
+body .mc_var_label{
+	font-weight:bold;
+	color:#555;
+	margin-bottom:0;
+	font-size:14px;
+}
+
+#mc_signup_form .mc_input{
+	width:100%;
+}
+
+body #mc_signup_submit{
+	margin-top:0;	
+}
+
+body .mc_merge_var{
+    margin-bottom: 0.4em;
+}
+
+
+/*
+.logo-wrap .logo {
+	display:none;
+}
+*/
+
+/* Hide borders around Teads injection */
+
+
+body .post-wrapper .post-ad-top-widget{
+	padding:0;
+	background-color:#fff;
+}
+
+
+body .zergnet-content-wrap {
+	margin-bottom:20px;
+}
+
+body .zergnet-content-wrap .related-content{
+	background-color:#fff;
+	padding:10px;	
+}
+
+body .related-content{
+	padding:15px;
+}
