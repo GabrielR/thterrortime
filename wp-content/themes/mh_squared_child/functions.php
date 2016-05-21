@@ -9,7 +9,15 @@ function mh_squared_child_styles() {
 add_action('wp_enqueue_scripts', 'mh_squared_child_styles');
 
 
+/***** Add FB meta tag  to Header *****/
+function hook_facebook_meta() {
 
+	$output='<meta property="fb:pages" content="816914461664341" />';
+
+	echo $output;
+
+}
+add_action('wp_head','hook_facebook_meta');
 
 
 
